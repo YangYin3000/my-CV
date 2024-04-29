@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color:#fafafa
+    ;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;   
+}
+header {
+    padding: 20px 0;
+    background-color: rgb(11, 131, 117);
+    display: flex;
+}
+
+
+
+.img-container{
+    padding: 4px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container{
+    padding: 0 10px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    
+}
+
+.title-container h1, .title-container h2{
+    color: whitesmoke;
+    font-size: auto;
+}
+
+.title-container h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(157, 168, 177);
+}
+
+.img, .avatar{
+    width: auto;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.container{
+    padding: 20px;
+    background-color: #fafafa;
+    display: flex;
+}
+
+.sider, .content{
+    background-color: orange;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.sider{
+    width: calc(40% - 20px);
+    margin-right: 20px;
+}
+
+.content{
+    flex-grow: 1;
+}
+
+.tag-fill{
+    background-color: rgb(11, 131, 117);
+    padding: 8px;
+    color: #fafafa;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.tag-content{
+    padding-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.tag-content ul{
+    margin: 0;
+}
+
+.tag-content ul li{
+    padding: 12px 0;
+}
+
+.progress-container{
+    width: 80%;
+}
+
+.progress-title{
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.progress-wrap{
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    margin-top:  8px;
+    margin-bottom: 16px;
+}
+
+.progress{
+    height: 10px;
+    background-color: rgb(11, 131, 117);
+}
+
